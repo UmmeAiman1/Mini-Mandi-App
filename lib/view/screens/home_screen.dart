@@ -143,7 +143,7 @@ Widget _buildSearchResults(BuildContext context, HomeController homeController) 
                 color: AppColors.secondarydarkGrey,
                 size: 60,
               ),
-              SizedBox(height: 10),
+              SizedBox(height: height(context, 10)),
               CustomText(
                 text: 'No Products Found',
                 color: AppColors.secondarydarkGrey,
